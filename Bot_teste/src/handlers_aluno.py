@@ -28,7 +28,7 @@ def alunoEntrada(update, context):
             print(info)
             update.message.reply_text(
                 "Bem vindo, "+user_info.from_user.first_name+"!.\nEsses são seus comandos:\n\n/acessarConteudos\n/contatosProfessor\n/planoDeEnsino")
-            return info
+           
         else:
             print("deu errado :( ")
             context.bot.send_message(chat_id=update.effective_chat.id,
