@@ -7,9 +7,9 @@ from telethon.tl.custom.conversation import Conversation
 from telethon.tl.custom.message import Message
 import math
 
-api_id = "27900352"
-api_hash = "40733d5c93fdb98ef3958af5c71d4663"
-session_str = "1AZWarzoBu3VCvFwApqReaOHxzW1JMgJkq8EN2DOOP9KtPiRdxNI_PG5pZ35bFfmljHFqyg2Q75DKFsBd_L7grph9CXIDcVa7dXeIl2GYRUCloT_FLu8NUH3MtbeZqgzu_TirQx7uI9ll--CEQcxL1eRusj2e0_Dge3hGK1i9O3T7u_Biv-BE2NzQ5wGXtGoi8var1haURnEX7bOlNRHhT8wy1GUe-RK4uf9fGCEoTylZhiiDIxiOv5VKFbl8aWwaQlOtzxAzggKCBZPJ5YcMR0tQ1J1xZGyPDyCIoAjOLABBOZlV0JhbCdJpoRGZd1YTyS8x11EsArTYVHn2aTOIkS8W7BtjrBY="
+api_id = ""
+api_hash = ""
+session_str = ""
 
 
 @pytest.fixture(scope="session")
